@@ -5,6 +5,13 @@ class home_page extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return  Scaffold(
+        appBar: AppBar(title: Text("Home",style: TextStyle(fontSize: 25,fontWeight: FontWeight.w100),),),
+        body:Column(
+          children: [
+            Text("hello harish"),
+          ],
+        ) ,
+      );
   }
 }
